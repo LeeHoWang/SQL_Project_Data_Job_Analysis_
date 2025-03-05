@@ -7,6 +7,7 @@ Question: What are the most in-demand skills for data analysts?
     providing insights into the most valuable skills for job seekers.
 */
 
+
 SELECT 
     skills,
     COUNT(skills_job_dim.job_id) AS demand_count
